@@ -1,17 +1,11 @@
-# Nombre de la Aplicación
+# Console-app
 
-[Descripción breve de la aplicación, lo que hace, y cualquier información relevante]
+Esta aplicación es una consola empresarial diseñada para ofrecer una visión integral del dashboard de objetivos y perspectivas de la empresa. Proporciona una interfaz interactiva y fácil de usar, donde los usuarios pueden acceder a datos en tiempo real, visualizar métricas clave, y obtener una comprensión profunda de las metas y el rendimiento de la organización. Además, incluye una sección donde los usuarios pueden ver y participar en discusiones y comentarios, fomentando una comunicación abierta y colaborativa dentro de la empresa.
 
 ## Índice
 
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
-- [Uso](#uso)
-- [Características](#características)
-- [Documentación del Código](#documentación-del-código)
-- [Pruebas](#pruebas)
-- [Contribuir](#contribuir)
-- [Licencia](#licencia)
 
 ## Requisitos
 
@@ -27,3 +21,11 @@
 
    ```bash
    git clone https://github.com/Amparo-E/corbis-console-app.git)https://github.com/Amparo-E/corbis-console-app.git
+   
+2. Navega hasta el directorio del proyecto
+ ```bash
+   cd console-app
+
+3. instala las dependencias
+```bash
+npm install
