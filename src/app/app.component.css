@@ -1,0 +1,72 @@
+.main-console-container {
+    height: 83.9vh;
+}
+
+.nav-bar-console {
+    margin: 30px 100px;
+}
+
+.dropdown > button {
+    border: none;
+    height: 30px;
+    background-color: #FF6537;
+    padding: 0 ;
+    padding-right: 7px;
+}
+
+.icon-wrapper {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EB4716;
+}
+
+.text-wrapper {
+    padding: 5px 10px;
+}
+
+.search-container {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #D2D2D2;
+    border-radius: 4px;
+    padding: 0.1rem 0.4em;
+    margin-left: 1.5rem;
+}
+
+  
+input {
+    width: 220px;
+    height: 28px;
+    font-size: 13px;
+    border: none;
+    background-color: transparent;
+}
+
+input::placeholder,
+.arrow-icon,
+.search-icon,
+.clock-icon,
+.question-icon {
+    color: #d2d2d2;
+}
+
+
+.container-fluid {
+    background-color:#F1F1F1 ;
+    width: 90%;
+    margin: 0 100px;
+    padding: 0;
+}
+.nav-tabs > .nav-link {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: none;
+}
+
+.my-tabs .nav-link {
+    color: #FF6537; 
+    border: none;
+    border-bottom: 0;
+}

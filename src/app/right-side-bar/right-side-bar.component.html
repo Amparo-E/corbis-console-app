@@ -1,0 +1,42 @@
+<div class="comments-sidebar-container">
+  <div [class.isOpen]="isOpen" class="comments">
+    <div>
+      <input type="text" class="form-control mb-3 rounded-0" placeholder="Make a comment">
+      <div class="d-flex justify-content-end">
+        <button type="button" class="btn">Cancel</button>
+        <button type="button" class="btn border rounded-0">Submit</button>
+      </div>
+    </div>
+    <div *ngFor="let comment of comments" class="card mt-4 p-2 border-0">
+      <div class="crad-body">
+        <div class="d-flex justify-content-between">
+          <h5 class="card-title">{{ comment.author }}</h5>
+          <p class="fw-semibold card-actions">Resolve</p>
+        </div>
+        <p class="card-subtitle mb-2 text-body-secondary">{{ comment.date }}</p>
+        <p class="card-text">{{ comment.comment }}</p>
+        <div>
+          <div class="d-flex justify-content-between">
+            <p class="fw-semibold">Reply</p>
+            <div>
+              <i class="bi bi-pencil-fill card-actions p-3"></i>
+              <i class="bi bi-trash card-actions"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  </div>
+  <div class="comments-sidebar">
+    <div class="btn-container">
+      <button (click)="toggleComments()" class="btn-toggle">
+        <i class="bi bi-chat-square-fill"></i>
+      </button>
+
+      <button class="btn-toggle">
+        <i class="bi bi-funnel-fill"></i>
+      </button>
+    </div>
+  </div>
+</div>

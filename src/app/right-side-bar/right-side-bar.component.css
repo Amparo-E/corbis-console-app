@@ -1,0 +1,63 @@
+.comments-sidebar-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.comments-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+  background-color: #fff;
+  border-left: 1px solid #d1d1d1;
+}
+
+.btn-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1.5em 0;
+}
+
+.btn-toggle {
+  color: #4C4743;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+.comments {
+  width: 0;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  transition: width 0.5s;
+  height: 100%;
+  display: none;
+  height: 83.9vh;
+  overflow-y: scroll;
+}
+
+.comments.isOpen {
+  width: 450px !important;
+  padding: 15px;
+  display: block;
+}
+
+.card-actions {
+  opacity: 0; 
+}
+
+.card:hover {
+  background-color: #F5F5F5;
+  transition: all 0.5s;
+}
+
+.card:hover .card-actions {
+  opacity: 1;
+  cursor: pointer;
+}
+  

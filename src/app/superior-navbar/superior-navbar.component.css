@@ -1,0 +1,76 @@
+.main-navbar, 
+.title-container {
+    z-index: 1;
+    padding-left: 80px;
+}
+
+nav {
+    padding: 0.1rem;
+}
+
+.navbar-actions { 
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar-actions > * {
+    margin-right: 25px; 
+}
+
+.search-container {
+    display: flex;
+    gap: 1rem;
+    border: 0.5px solid #f1f1f1;
+    border-radius: 4px;
+    padding: 0.1rem 0.5rem;
+}
+
+  
+input {
+    width: 320px;
+    font-size: 13px;
+    border: none;
+    background-color: transparent;
+}
+
+input::placeholder,
+.arrow-icon,
+.search-icon,
+.clock-icon,
+.question-icon {
+    color: #d2d2d2;
+}
+
+
+.add-icon {
+    color: #FF6537;
+}
+
+.my-tabs {
+    background-color: #fff;
+}
+
+.my-tabs .nav-link.active {
+    background-color: #F1F1F1; 
+    border: none;
+    border-bottom: 0;
+}
+
+.my-tabs > .nav-item > span {
+    color: #4C4743;
+    font-size: 12px;
+}
+
+
+.title-container {
+    background: #F1F1F1;
+}
+
+.title-container > h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #646464;
+    padding: 20px;
+}

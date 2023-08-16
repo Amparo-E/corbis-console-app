@@ -1,0 +1,17 @@
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let perspective of perspectives">
+      <td>{{ perspective.name }}</td>
+    </tr>
+  </tbody>
+</table>
+<nav aria-label="Page">
+  <ul class="pagination">
+    <li class="page-item">1</li>
+  </ul>
+</nav>
